@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mawadah-mid2</string>
+
+    <string name="Name">Name:</string>
+    <string name="surname">surname</string>
+    <string name="id">ID:</string>
+    <string name="nationalid">national id</string>
+    <string name="bttninsert1">INSERT</string>
+    <string name="bttn2ndActivity">Click To see activity2</string>
+    <string name="bttn3rdActivity">Click To see activity3</string>
+</resources>
+

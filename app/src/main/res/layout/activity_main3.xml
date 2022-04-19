@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bttnView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/txtViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: " />
+
+        <EditText
+            android:id="@+id/edittxtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/bttnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Delete"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#8FC8F6" />
+
+    <Button
+        android:id="@+id/buttView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="View  The Table from database"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#EAAAF4" />
+
+    <Button
+        android:id="@+id/bttnforAct1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to see the Act1"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#E6A8F1" />
+
+</LinearLayout>
